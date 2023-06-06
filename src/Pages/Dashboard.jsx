@@ -82,14 +82,14 @@ const Dashboard = () => {
             <div className="flex items-center gap-3">
               <span
                 className="p-2
-                             bg-[#e6e6e6] rounded-full relative"
+                             bg-[#e6e6e6] rounded-full relative transform transition duration-500 hover:scale-105 hover:shadow-lg"
               >
                 <CiMail className="w-[25px] h-[25px] " />{" "}
                 <p className="bg-[#8194fd] h-[10px] w-[10px] rounded-full top-2 right-1 absolute"></p>
               </span>
               <span
                 className="p-2
-                             bg-[#e6e6e6] rounded-full"
+                             bg-[#e6e6e6] rounded-full transform transition duration-500 hover:scale-105 hover:shadow-lg"
               >
                 <CiBellOn className="w-[25px] h-[25px] " />
               </span>

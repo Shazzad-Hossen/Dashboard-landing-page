@@ -52,7 +52,7 @@ const Line2 = () => {
       
     return (
         <div className="flex justify-center">
-        <div className='max-w-[450px] w-full'>
+        <div className='max-w-[450px] w-full transform transition duration-500 hover:scale-105'>
 
 <div className=" rounded-lg flex justify-between items-center gap-1 p-4 bg-gradient-to-r from-[#cecaf8] to-[#f4f3ff] shadow-lg">
                 <div className="">
