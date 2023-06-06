@@ -96,7 +96,7 @@ const Dashboard = () => {
               <img className="w-[38px] h-[38px] " src={user} alt="" />
               <div
                 onClick={() => setMenu(!menu)}
-                className="block md:hidden z-20"
+                className="block md:hidden z-20 text-[#9b92ee]"
               >
                 {menu ? (
                   <CgMenuGridR className="w-[40px] h-[40px]" />
